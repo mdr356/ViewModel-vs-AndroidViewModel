@@ -21,8 +21,7 @@ Activities get destroyed more often than their ViewModel, such as when the scree
 class MainViewModel(val app: Application) : AndroidViewModel(app) {
     ...
 }
-
-val app: Application //this variable can be used to access resources where you would normally use the Activity context.
 ```
+**val app: Application** this variable can be used to access resources where you would normally use the Activity context.
 
 
